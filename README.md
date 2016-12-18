@@ -6,9 +6,9 @@
 
 Класс тут ни к чему, так что - функция. Чтобы было чуть интереснее моя реализация принимает на вход любые контейнеры в любых комбинациях.
 ### Куда смотреть
-Заголовочный файл с интерфейсом: lib/ldistance.h
-Алгоритимическая часть [в lib/ldistance-inl.h](https://github.com/1az/ldistance/blob/master/lib/ldistance-inl.h#L27)
-Примеры использования [в юнит-тесте](https://github.com/1az/ldistance/blob/master/ut/ldistance_ut.cpp)
+Заголовочный файл с интерфейсом: [lib/ldistance.h](https://github.com/1az/ldistance/blob/master/lib/ldistance.h)
+Алгоритимическая часть [в lib/ldistance-inl.h](https://github.com/1az/ldistance/blob/master/lib/ldistance-inl.h#L27).
+Примеры использования [в юнит-тесте](https://github.com/1az/ldistance/blob/master/ut/ldistance_ut.cpp).
 Сборка cmake, для юнит-тестов используется [фреймворк Catch](https://github.com/philsquared/Catch)
 ### Как запустить
 ```bash
